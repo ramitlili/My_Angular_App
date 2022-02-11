@@ -1,0 +1,43 @@
+.my-first-component {
+    width: 35%;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #FFDC5D;
+    border-radius : 25px;
+  }
+img {
+    width: 100%;
+  }
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.bg {
+  background-color: bisque;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  
+}
+button {
+    font-size: 20px;
+    background-color: white;
+    border-radius : 25px;
+    margin-left: 10px;
+}
+.snapped {
+  background-color: rgba(lightgreen, 0.4);
+  color: azure;
+  box-shadow: white 3px 3px 7px;
+}

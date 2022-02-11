@@ -1,0 +1,14 @@
+<div class="my-first-component" [ngClass]="{ snapped: buttonText == 'Oops! UnSnap!' }">
+    <p>{{ 4346234.36 | number: '1.0-1' }}</p>
+  <h2>{{ FaceSnap.title| uppercase }} </h2>
+  <p>Mis en ligne le : {{ FaceSnap.createdDate | date: 'dd/MM/yy, à HH:mm' }}</p>
+  <p>{{ FaceSnap.description }}</p>
+  <p *ngIf="FaceSnap.location">Photo prise à {{ FaceSnap.location }}</p>
+  <img [src]="imageUrl" alt="{{ title }}"/>
+  <p>
+      <button (click)="onAddSnap()">{{ buttonText }}</button>
+    <span [ngStyle]="{ color: 'rgb(0, ' + FaceSnap.snaps + ', 0)' }"> 😍 {{ FaceSnap.snaps }}</span>
+      <button (click)="onAddsnop()">{{ buttonText1 }}</button>
+      💪 {{ FaceSnap.snops }}
+  </p>
+  </div>

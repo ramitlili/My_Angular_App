@@ -1,0 +1,3 @@
+<!--<app-my-first-component [FaceSnap]="mySnap" *ngIf="mySnap.snaps > 5"></app-my-first-component> 
+<app-my-first-component [FaceSnap]="secondSnap"></app-my-first-component> -->
+<app-my-first-component *ngFor="let faceSnapElementInArray of FaceSnaps" [FaceSnap]="faceSnapElementInArray"></app-my-first-component>

@@ -1,0 +1,6 @@
+<div class="my-first-component" [ngClass]="{ snapped: buttonText == 'Oops! UnSnap!' }">
+<h2>{{ FaceSnap.title| uppercase }} </h2>
+<p>Mis en ligne le : {{ FaceSnap.createdDate | date: 'dd/MM/yy, à HH:mm' }}</p>
+<p>{{ FaceSnap.description }}</p>
+<button (click)="onViewFaceSnap()">View</button>
+</div>
